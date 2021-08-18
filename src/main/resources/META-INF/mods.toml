@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[36,)"
+issueTrackerURL="https://github.com/noobanidus/handyshapes/issues"
+license="https://github.com/noobanidus/lootr/blob/1.16/LICENSE"
+[[mods]] 
+modId="handyshapes"
+version="${version}"
+displayName="handyshapes"
+displayURL="https://minecraft.curseforge.com/projects/handyshapes"
+authors="Noobanidus, AranaiRa"
+description='''
+Accessible wand shapes for Mana & Artifice.l
+'''
+[[dependencies.handyshapes]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[36,)"
+    ordering="NONE"
+    side="SERVER"
+[[dependencies.handyshapes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="SERVER"
